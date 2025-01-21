@@ -48,10 +48,10 @@
   .about a{
     color: rgba(1, 172, 253, 1);
   }
-  .facilits{
+  .facilits a{
     color: rgba(5, 212, 223, 1);
   }
-  .admission{
+  .admission a{
     color: rgba(93, 88, 239, 1);
   }
   .primary-btn{
@@ -108,6 +108,89 @@
     height: 570px; */
     max-width: 100%;
   }
+
+
+  /* main-part-1 */
+  .main-part{
+    background-image: url(../assets/bg.png);
+  }
+  .main-title{
+    font-size: 2.85rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .card-box{
+    display: flex;
+    gap: 28px;
+    margin: 80px 140px;
+  }
+  .box-1{
+    text-align: center;
+    border-radius: 18px;
+    background-color: rgba(222, 245, 255, 1);
+  }
+  .box-2{
+    text-align: center;
+    border-radius: 18px;
+    background-color: rgba(222, 245, 255, 1);
+}
+.box-3{
+    text-align: center;
+    border-radius: 18px;
+    background-color: rgba(222, 245, 255, 1);
+}
+  .main-img{
+    margin-bottom: 32px;
+    margin-top: 50px;
+  }
+  .image-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color: rgba(32, 32, 32, 1);
+  }
+  .image-description{
+    font-size: 0.95rem;
+    font-weight: 500;margin-bottom: 32px;
+    color: rgba(128, 128, 128, 1);
+  }
+  .read-1{
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: rgba(100, 200, 255, 1);
+  }
+  .read-2{
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: rgba(240, 170, 0, 1);
+  }
+  .read-3{
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: rgba(135, 0, 255, 1);
+  }
+  /* arrows part starts */
+  .arrows{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-position: center;
+    margin-bottom: 60px;
+  }
+  .round-box{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgba(254, 163, 1, 1);
+  }
+  
   
   /* mobile device */
   @media screen and (max-width: 576px) {
@@ -134,4 +217,15 @@
         justify-content: center;
         text-align: center;
     }
+    .main-part{
+        margin: 240px 0px 0px 0px;
+    }
+    .card-box{
+        flex-direction: column;
+        margin: 20px 16px;
+    }
+    .arrows{
+        display: none;
+    }
+   
   }
