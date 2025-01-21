@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    margin: 0;
+  }
+  /* nav style starts */
+  .nav-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 25px 140px;
+  }
+  .nav-school{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .school{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+  }
+  .nav-school> img{
+    width: 3.8rem;
+    height: 3.8rem;
+    max-width: 100%;
+  }
+  .about-us{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  .about-us a{
+    text-decoration: none;
+  }
+  .home a{
+    color: rgba(254, 163, 1, 1);
+  }
+  .about a{
+    color: rgba(1, 172, 253, 1);
+  }
+  .facilits{
+    color: rgba(5, 212, 223, 1);
+  }
+  .admission{
+    color: rgba(93, 88, 239, 1);
+  }
+  .primary-btn{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(254, 163, 1, 1);
+    border-radius: 12px;
+    padding: 10px 60px;
+    border: none;
+  }
+  /* header main part starts */
+  .main-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 140px;
+    gap: 50px;
+  }
+  .part-1{
+    width: 640px;
+    height: 330px;
+    max-width: 100%;
+  }
+  .empower{
+    color: rgba(254, 163, 1, 1);
+  }
+  .towards{
+    color: rgba(1, 172, 253, 1);
+  }
+  .school-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 24px;
+  }
+  .school-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 24px;
+  }
+  .enroll{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    padding: 10px 46px;
+  }
+  .header-img{
+    /* width: 460px;
+    height: 570px; */
+    max-width: 100%;
+  }
+  
+  /* mobile device */
+  @media screen and (max-width: 576px) {
+    nav> .about-us, .primary-btn{
+        display: none;
+    }   
+    .nav-title> .nav-school> .school{
+        display: none;
+        margin-bottom: 15px;
+    }
+    .nav-title{
+        border-bottom: 1px solid #FEA301;
+    }
+    nav{
+        margin-bottom: 12px;
+        border-width: 100%;
+    }
+    .main-header{
+        flex-direction: column-reverse;
+        margin: 8px 16px;
+    }
+    .part-1{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+  }
