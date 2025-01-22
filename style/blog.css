@@ -211,7 +211,9 @@
 .another-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 18px;
+    max-width: 80%;
     margin: 80px 140px;
 }
 #firsr-box{
@@ -385,7 +387,7 @@ margin: 34px 38px 47px 38px;
     grid-template-columns: repeat(2, 1fr);
     max-width: 70%;
     gap: 10px;
-    margin: 20px 15px;
+    margin: 20px 10px;
    }
    .last-part{
     margin: 0;
