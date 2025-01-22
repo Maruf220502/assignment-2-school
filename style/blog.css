@@ -379,7 +379,7 @@ margin: 34px 38px 47px 38px;
     .nav-title{
       padding: 10px;
         border-bottom: 1px solid #FEA301;
-        /* border: 1px solid #FEA301; */
+        margin: 0px auto;
         border-width: 90%;
     }
     nav{
