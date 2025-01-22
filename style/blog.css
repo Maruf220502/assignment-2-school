@@ -63,6 +63,16 @@
     padding: 10px 60px;
     border: none;
   }
+  a:hover{
+    background-color: darkgrey;
+    border-radius: 8px;
+  }
+.menu-toggle{
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
   /* header main part starts */
   .main-header{
     display: flex;
@@ -306,6 +316,10 @@ margin: 34px 38px 47px 38px;
   max-width: 80px;
   max-height: 80px;
 }
+.footer-nav a{
+  text-decoration: none;
+  color: white;
+}
 .footer-title{
   font-size: 2.65rem;
   font-weight: bold;
@@ -336,6 +350,13 @@ margin: 34px 38px 47px 38px;
   color: white;
   margin-bottom: 30px;
 }
+/* marquee style */
+.marquee{
+  background-color: lightgray;
+  font-size: 1.25rem;
+  font-weight: 600;
+
+}
 
 
   /* mobile device */
@@ -348,12 +369,17 @@ margin: 34px 38px 47px 38px;
         margin-bottom: 15px;
     }
     .nav-title{
-        border-bottom: 1px solid #FEA301;
+      padding: 10px;
+      
+        /* border-bottom: 1px solid #FEA301; */
+        border: 1px solid #FEA301;
     }
     nav{
         margin-bottom: 12px;
         border-width: 100%;
     }
+    
+
     /* main header */
     .main-header{
         flex-direction: column-reverse;
@@ -415,3 +441,6 @@ margin: 34px 38px 47px 38px;
   display: none;
 }
   }
+
+
+  
