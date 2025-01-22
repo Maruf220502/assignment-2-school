@@ -217,6 +217,7 @@
     grid-row: span 2;
 }
 .our-box img{
+  max-width: 100%;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
 }
@@ -374,7 +375,8 @@ margin: 34px 38px 47px 38px;
     display: none;
    }
    .another-card{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 90%;
     gap: 10px;
     margin: 20px 15px;
    }
