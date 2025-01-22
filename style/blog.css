@@ -129,17 +129,21 @@
   .box-1{
     text-align: center;
     border-radius: 18px;
-    background-color: rgba(222, 245, 255, 1);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
   }
   .box-2{
     text-align: center;
     border-radius: 18px;
-    background-color: rgba(222, 245, 255, 1);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+   
 }
 .box-3{
     text-align: center;
     border-radius: 18px;
-    background-color: rgba(222, 245, 255, 1);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
   .main-img{
     margin-bottom: 32px;
@@ -275,6 +279,61 @@ margin: 34px 38px 47px 38px;
     margin: 80px 620px 60px 620px;
 }
 
+/* footer style starts */
+.footer{
+  margin-top: 0px;
+  background-color: rgba(1, 172, 253, 1);
+}
+.footer-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* margin: 0px 225px 170px 140px; */
+  padding-top: 120px;
+  margin-left: 140px;
+  margin-right: 140px;
+  padding-bottom: 174px;
+  column-gap: 160px;
+}
+.kids-information{
+  display: flex;
+  gap: 10px;
+}
+.kids-information> img{
+  max-width: 80px;
+  max-height: 80px;
+}
+.footer-title{
+  font-size: 2.65rem;
+  font-weight: bold;
+  color: white;
+}
+.footer-description{
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: white;
+  margin-top: 30px;
+}
+.about-school{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+}
+.item{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  list-style: none;
+ margin-bottom: 20px;
+}
+.keep{
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+}
+
+
   /* mobile device */
   @media screen and (max-width: 576px) {
     nav> .about-us, .primary-btn{
@@ -325,4 +384,23 @@ margin: 34px 38px 47px 38px;
    .view-all{
     margin: 20px 110px ;
    }
+/* footer starts */
+.footer{
+  margin: 0px;
+}
+.footer-section{
+  grid-template-columns: repeat(1,1fr);
+  row-gap: 40px;
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+.hide{
+  display: none;
+}
   }
